@@ -1,6 +1,6 @@
 {
   "name": "gulp-img-comment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp custom plugin to insert image name in a html comment",
   "main": "index.js",
   "scripts": {

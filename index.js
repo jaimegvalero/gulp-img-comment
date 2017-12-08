@@ -19,7 +19,7 @@ module.exports = function(opts) {
 		}
 
 		if (file.isBuffer()) {
-			var $ = cheerio.load(String(file.contents));
+			var $ = cheerio.load(String(file.contents),{decodeEntities: false});
 			$('img').each(function() {
 				if ($(this).attr('src')) {
 					var image = $(this).attr('src');
